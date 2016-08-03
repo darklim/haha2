@@ -15,7 +15,7 @@ def parsePage(url):
 		product = i.select('strong span')[0].text
 		product = product.replace('\n','').strip()
 		restaurant = i.select('small')[0].text	
-		restaurant = restaurant.replace('— Rating','')
+		
 
 		#except Exception as e:
 			#pass
